@@ -1,0 +1,58 @@
+.btn {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.intro-title {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 12px;
+}
+
+.intro-title h1 {
+    font-size: clamp(1.5rem, 10vw, 2.5rem);
+    margin-top: 20%;
+    margin-bottom: 8px;
+}
+
+.intro-bg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .intro-title h1 {
+        font-size: clamp(2.5rem, 10vw, 4.5rem);
+    }
+
+    .home a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .home section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .intro-title {
+        width: 40%;
+        margin: 0;
+    }
+
+    .intro-title h1 {
+        font-size: clamp(1.5rem, 10vw, 2.5rem);
+        width: 80%;
+        margin-left: 24px;
+    }
+
+    .home a {
+        margin-left: 24px;
+    }
+
+    .intro-bg {
+        width: 50%;
+    }
+}
